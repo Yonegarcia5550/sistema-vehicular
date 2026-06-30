@@ -1,0 +1,56 @@
+<nav class="top-navbar">
+
+    <div class="logo-container">
+
+        <img
+            src="imagenes/images.jpg"
+            alt="Logo Oaxaca"
+            class="logo-img">
+
+        <div class="system-info">
+
+            <span class="system-title">
+                Sistema de Gestión Vehicular
+            </span>
+
+            <small class="system-subtitle">
+                Gobierno del Estado de Oaxaca
+            </small>
+
+        </div>
+
+    </div>
+
+    <div class="navbar-right">
+
+        <button class="notification-btn">
+            <i class="bi bi-bell-fill"></i>
+        </button>
+
+        <div class="user-profile">
+
+            <div class="avatar">
+                {{ user?.username?.charAt(0)?.toUpperCase() || 'A' }}
+            </div>
+
+            <div class="user-data">
+
+                <span class="user-name">
+                    {{ user?.username || 'Administrador' }}
+                </span>
+
+                <small>
+                    Sesión activa
+                </small>
+
+            </div>
+
+        </div>
+
+        <button class="btn-salir" (click)="logout()">
+            <i class="bi bi-box-arrow-right"></i>
+        </button>
+
+    </div>
+
+</nav>

@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family:'Poppins', sans-serif;
+}
+:root {
+  --color-guinda-principal: #8D1F49; /* El tono oficial que usaste en el login */
+  --color-guinda-oscuro: #5B132E;    /* Para hovers o estados activos */
+  --color-dorado-institucional: #B38E5D; /* Detalles, bordes sofisticados o iconos importantes */
+  --color-fondo-gris: #F4F6F9;       /* Un gris mucho más moderno para el área de contenido */
+  --color-texto-principal: #2B2B2B;  /* Evita el negro puro #000 para mejorar la lectura */
+  --color-texto-secundario: #6C757D; /* Para textos informativos o subtítulos */
+  --sidebar-width: 260px;
+}
